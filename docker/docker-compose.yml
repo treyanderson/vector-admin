@@ -30,7 +30,7 @@ services:
       - "../backend/storage:/app/backend/storage"
       - "../document-processor/hotdir/:/app/document-processor/hotdir"
     ports:
-      - "3001:3001"
+      - "3003:3003"
       - "3355:3355"
       - "8288:8288"
     env_file:
